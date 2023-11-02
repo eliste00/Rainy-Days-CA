@@ -1,3 +1,42 @@
 body {
-    background-color: orange; 
+    background-color: white;
+    padding: auto;
+    margin: 0px; 
+    font size: 20px;
+    min-height 200px;
+   }
+   
+/**hambuger**/
+
+    nav,
+  #menu-checkbox {
+    display: none;
+  }
+ 
+  #menu-checkbox:checked ~ nav {
+    display: block;
+  }
+ 
+  nav {
+    position: absolute;
+    background: #f9fafa;
+    left: 0px;
+  }
+ 
+  nav a {
+    display: block;
+    color: #060606;
+    padding: 10px 20px;
+    text-decoration: none;
+  }
+
+  /**hambuger**/
+1 Hjerte-reaksjon.
+1
+har hurtigmeny
+}
+
+   .logo-footer {
+    font-variant: all-petite-caps;
+    font-size: 10em;
    }
